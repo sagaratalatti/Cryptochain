@@ -99,7 +99,7 @@ let blockchain, newChain, originalChain;
       });
 
       it('logs an error', () => {
-        //expect(errorMock).toHaveBeenCalled();
+        expect(errorMock).toHaveBeenCalled();
       });
     });
 
@@ -125,7 +125,7 @@ let blockchain, newChain, originalChain;
         });
 
         it('logs an error', () => {
-          //expect(errorMock).toHaveBeenCalled();
+          expect(errorMock).toHaveBeenCalled();
         });
       });
 
